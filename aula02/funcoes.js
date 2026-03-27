@@ -1,0 +1,26 @@
+// Pascal é um padrão de nomenclatura onde a primeira letra de cada palavra é maiúscula, 
+// como por exemplo: NumeroUm, NumeroDois, etc.
+
+function SomaNumeros(){
+    let valor_i = 6
+    let valor_ii = 5
+    let resultado = 0
+
+    return resultado = valor_i + valor_ii
+}
+
+console.log(SomaNumeros())
+
+function SomaNumerosII(valor_i, valor_ii){
+    console.log(valor_i + valor_ii)
+}
+
+SomaNumerosII(9, 15)
+SomaNumerosII(3, 4)
+SomaNumerosII(90, 50)
+
+const SOMA_NUMEROS_III = (valor_i, valor_ii) => {
+    return valor_i + valor_ii
+}
+
+console.log(SOMA_NUMEROS_III(81, 98))
