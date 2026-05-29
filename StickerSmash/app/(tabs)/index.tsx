@@ -51,7 +51,7 @@ const onAddSticker = () => {
   };
 
   return (
-    <GestureHandlerRootView style={styles.container}>
+  <GestureHandlerRootView style={styles.container}>
 
     <View style={styles.container}>
       <View style={styles.imageContainer}>
@@ -77,7 +77,7 @@ const onAddSticker = () => {
        </EmojiPicker>
     </View>
 
-    </GestureHandlerRootView>
+  </GestureHandlerRootView>
   );
 }
 
